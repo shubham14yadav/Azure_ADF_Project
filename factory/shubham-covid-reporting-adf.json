@@ -1,0 +1,9 @@
+{
+	"name": "shubham-covid-reporting-adf",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "7daa653e-24c5-488c-9c9a-05d298f925bc",
+		"tenantId": "8d281d1d-9c4d-4bf7-b16e-032d15de9f6c"
+	}
+}
