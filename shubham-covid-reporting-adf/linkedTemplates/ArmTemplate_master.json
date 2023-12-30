@@ -27,6 +27,10 @@
 			"type": "string",
 			"defaultValue": "https://covidreportingshdl.dfs.core.windows.net/"
 		},
+		"ls_http_opendata_ecdc_europa_eu_properties_typeProperties_url": {
+			"type": "string",
+			"defaultValue": "https://github.com"
+		},
 		"tr_ingest_population_data_properties_typeProperties_scope": {
 			"type": "string",
 			"defaultValue": "/subscriptions/05214902-4146-4129-bd9e-b41c2b6b7062/resourceGroups/covid-reporting/providers/Microsoft.Storage/storageAccounts/covidreporting123"
@@ -72,6 +76,9 @@
 					},
 					"ls_adls_covidreportingdl_properties_typeProperties_url": {
 						"value": "[parameters('ls_adls_covidreportingdl_properties_typeProperties_url')]"
+					},
+					"ls_http_opendata_ecdc_europa_eu_properties_typeProperties_url": {
+						"value": "[parameters('ls_http_opendata_ecdc_europa_eu_properties_typeProperties_url')]"
 					},
 					"tr_ingest_population_data_properties_typeProperties_scope": {
 						"value": "[parameters('tr_ingest_population_data_properties_typeProperties_scope')]"
