@@ -61,7 +61,7 @@
 				]
 			},
 			{
-				"name": "Validation1",
+				"name": "Check if file exists",
 				"type": "Validation",
 				"dependsOn": [],
 				"userProperties": [],
