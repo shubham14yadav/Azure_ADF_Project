@@ -107,7 +107,7 @@
 				}
 			},
 			{
-				"name": "Execute",
+				"name": "Execute Copy For Every Record",
 				"type": "ForEach",
 				"dependsOn": [
 					{
@@ -117,7 +117,13 @@
 						]
 					}
 				],
-				"userProperties": []
+				"userProperties": [],
+				"typeProperties": {
+					"items": {
+						"value": "@activity('Lookup ecdc file list').output.value",
+						"type": "Expression"
+					}
+				}
 			}
 		],
 		"concurrency": 1,
