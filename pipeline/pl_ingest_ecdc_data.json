@@ -52,7 +52,7 @@
 					},
 					"activities": [
 						{
-							"name": "Copy ECDC Data_copy1",
+							"name": "Copy ECDC Data",
 							"type": "Copy",
 							"dependsOn": [],
 							"policy": {
@@ -129,17 +129,6 @@
 			}
 		],
 		"concurrency": 1,
-		"parameters": {
-			"sourceRelativeURL": {
-				"type": "string"
-			},
-			"sinkFileName": {
-				"type": "string"
-			},
-			"sourceBaseURL": {
-				"type": "string"
-			}
-		},
 		"annotations": []
 	}
 }
