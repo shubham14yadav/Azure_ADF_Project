@@ -79,6 +79,9 @@
 			},
 			"sinkFileName": {
 				"type": "string"
+			},
+			"sourceBaseURL": {
+				"type": "string"
 			}
 		},
 		"annotations": []
