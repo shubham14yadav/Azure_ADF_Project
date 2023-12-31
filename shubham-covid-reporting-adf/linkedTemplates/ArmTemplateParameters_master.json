@@ -21,10 +21,13 @@
 			"value": "https://covidreportingshdl.dfs.core.windows.net/"
 		},
 		"ls_http_opendata_ecdc_europa_eu_properties_typeProperties_url": {
-			"value": "https://github.com"
+			"value": "@{linkedService().sourceBaseURL}"
 		},
 		"tr_ingest_population_data_properties_typeProperties_scope": {
 			"value": "/subscriptions/05214902-4146-4129-bd9e-b41c2b6b7062/resourceGroups/covid-reporting/providers/Microsoft.Storage/storageAccounts/covidreporting123"
+		},
+		"ls_http_opendata_europa_eu_fixed_properties_typeProperties_url": {
+			"value": "@linkedService().sourceBaseURL"
 		},
 		"containerUri": {
 			"value": ""
