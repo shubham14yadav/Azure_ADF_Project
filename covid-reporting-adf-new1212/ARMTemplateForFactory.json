@@ -37,7 +37,7 @@
 		},
 		"tr_ingest_population_data_properties_typeProperties_scope": {
 			"type": "string",
-			"defaultValue": "/subscriptions/05214902-4146-4129-bd9e-b41c2b6b7062/resourceGroups/covid-reporting/providers/Microsoft.Storage/storageAccounts/covidreporting123"
+			"defaultValue": "/subscriptions/9d4fc635-bbf8-40f1-94be-7d3cac3ca204/resourceGroups/covid-reporting/providers/Microsoft.Storage/storageAccounts/covidreportingnewdl12"
 		}
 	},
 	"variables": {
