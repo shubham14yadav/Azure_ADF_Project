@@ -87,8 +87,8 @@
 							},
 							"userProperties": [],
 							"typeProperties": {
-								"url": "https://file_incompatible",
 								"method": "POST",
+								"url": "https://file_incompatible",
 								"body": "dummy"
 							}
 						}
