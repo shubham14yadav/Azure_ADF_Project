@@ -1,0 +1,33 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "covid-reporting-adf-new1212"
+		},
+		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"ls_ablob_covidreportingsa_connectionString": {
+			"value": ""
+		},
+		"ls_adls_covidreportingdl_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://covidreporting123.dfs.core.windows.net/"
+		},
+		"ls_adls_covidreportingdl_properties_typeProperties_url": {
+			"value": "https://covidreportingnewdl12.dfs.core.windows.net/"
+		},
+		"ls_http_opendata_ecdc_europa_eu_properties_typeProperties_url": {
+			"value": "@{linkedService().sourceBaseURL}"
+		},
+		"ls_http_opendata_europa_eu_fixed_properties_typeProperties_url": {
+			"value": "@linkedService().sourceBaseURL"
+		},
+		"tr_ingest_population_data_properties_typeProperties_scope": {
+			"value": "/subscriptions/05214902-4146-4129-bd9e-b41c2b6b7062/resourceGroups/covid-reporting/providers/Microsoft.Storage/storageAccounts/covidreporting123"
+		}
+	}
+}
